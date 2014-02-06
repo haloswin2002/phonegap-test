@@ -14,7 +14,7 @@
     Nick
   </author>
 
-  <preference name="phonegap-version" value="3.1.0" />
+  <preference name="phonegap-version" value="3.3.0" />
 
   <!-- Only build for ios and android -->
   <gap:platform name="ios" />
