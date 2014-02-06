@@ -1,0 +1,14 @@
+<widget id="com.example.test" version="0.0.1">
+
+  <name>NickTest</name>
+
+  <description>
+    A sample application
+  </description>
+
+  <content src="src/index.html"/>
+  <access origin="*"/>
+  <preference name="Fullscreen" value="true"/>
+  <preference name="WebViewBounce" value="true"/>
+
+</widget>
