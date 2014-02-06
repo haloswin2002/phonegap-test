@@ -1,16 +1,24 @@
-<widget id="com.example.test" version="0.0.1">
+<?xml version="1.0" encoding="UTF-8" ?>
 
-  <name>NickTest</name>
+<widget xmlns = "http://www.w3.org/ns/widgets"
 
-  <description>
-    A sample application
-  </description>
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    version     = "1.0.0"
+    versionCode = "10" >
 
-  <content src="src/index.html"/>
-  <access origin="*"/>
-  <preference name="Fullscreen" value="true"/>
-  <preference name="WebViewBounce" value="true"/>
+    <!-- versionCode is optional and Android only -->
 
-  <gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
+    <preference name="phonegap-version" value="3.1.0" />
+
+    <name>config.xml</name>
+
+    <description>
+    An example for phonegap build docs. 
+    </description>
+
+    <author email="nick@bodydatasystems.com">
+    Nick
+    </author>
 
 </widget>
