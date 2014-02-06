@@ -11,4 +11,6 @@
   <preference name="Fullscreen" value="true"/>
   <preference name="WebViewBounce" value="true"/>
 
+  <gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
+
 </widget>
